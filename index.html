@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans 
+            +Pro:300,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Ejup Pllashniku</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      bupka
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item">
+          <a href="#services" class="nav__link">Service</a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About me</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact</a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introduction -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Ejup Pllashniku</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img src="/assests/ejup-pllashniku.jpg" alt="ejup-pllashniku" class="intro__img" />
+  </section>
+
+  <!-- My services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Front-end Dev</h3>
+        <p>
+          I like to code things from scratch, and enjoy bringing ideas to life in the browser.
+          I value simple content structure, clean design patterns, and thoughtful interactions.
+        </p>
+      </div>
+      
+      <div class="service">
+        <h3>Drummer</h3>
+        <p>
+          An autodidact drummer who dedicated himself to learning the craft through great passion, hard work and
+          perseverance. I also observed four students over two years to learn drumming, one of which today is one of the
+          best young drummers in Kosovo!
+        </p>
+      </div>
+    </div>
+    </div>
+  </section>
+  
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">Developer & Drummer</p>
+      <div class="about-me__body">
+        <p>
+          I am Ejup, a front-end developer based in Prishtina, Kosovo. Experienced working with, <span>GIT</span>,
+          <span>HTML</span>, <span>CSS</span>, <span>JAVASCRIPT</span> and <span>REACT</span>. Eager to tackle more
+          complex problems and continue to find ways to maximize user efficiency. With a passion for both personal growth
+          and for software development. Ready to collaborate effectively with others while spending extra time to be
+          mentored.
+        </p>
+      </div>
+  
+      <img src="/assests/drummer.jpg" alt="drummer-school" class="about-me__img">
+    </section>
+    
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact<span class="highlight"> me</span></h2>
+        <form class="contact-form">
+          <div class="name">
+            <input type="text" class="first-name" required placeholder="first name">
+            <input type="text" class="last-name" required placeholder="last name">
+          </div>
+          <input type="email" required class="email" placeholder="email">
+          <textarea class="message" placeholder="message" required></textarea>
+          <button type="submit" class="btn contact-btn">Contact</button>
+        </form>
+      </section>
+      <!-- Footer -->
+      <footer class="footer" id="footer">
+        <a href="mailto:ejup.pllashniku@gmai.com" class="footer__link">ejup.pllashniku@gmail.com</a>
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://facebook.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+      <script src="/script.js"></script>
+    </body>
+    
+    </html>
+
+
